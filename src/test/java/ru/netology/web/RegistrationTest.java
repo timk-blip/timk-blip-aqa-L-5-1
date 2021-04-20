@@ -66,6 +66,6 @@ public class RegistrationTest {
         $$("button").find(exactText("Запланировать")).click();
         $(withText("Встреча успешно запланирована на"));
         $$("button").find(exactText("Запланировать")).click();
-        $(withText("Уронить Тесты")).click();
+        $(withText("Перепланировать")).click();
     }
 }

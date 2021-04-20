@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/pf5ugw7vo4s6jlkl?svg=true)](https://ci.appveyor.com/project/timk-blip/timk-blip-aqa-l-5-1)

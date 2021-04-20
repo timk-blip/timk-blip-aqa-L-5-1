@@ -68,7 +68,7 @@ public class RegistrationTest {
         sleep(1000);
         $$("button").find(exactText("Запланировать")).click();
         sleep(1000);
-        $(withText("Перепланировать"));
+        $(withText("УронитьТест"));
         sleep(1000);
     }
 

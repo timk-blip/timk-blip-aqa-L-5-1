@@ -63,14 +63,9 @@ public class RegistrationTest {
         $("[data-test-id=name] input").setValue(faker.name().fullName());
         $("[data-test-id=phone] input").setValue(faker.phoneNumber().cellPhone());
         $("[class='checkbox__box']").click();
-        $$("button").find(exactText("уронитьтест")).click();
-        $(withText("Встреча успешно запланирована на"));
-        sleep(1000);
         $$("button").find(exactText("Запланировать")).click();
-        sleep(1000);
-        $(withText("Перепланировать"));
-        sleep(1000);
+        $(withText("Встреча успешно запланирована на"));
+        $$("button").find(exactText("Запланировать")).click();
+        $(withText("Уронить Тесты")).click();
     }
-
-
 }
